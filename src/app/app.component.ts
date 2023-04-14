@@ -80,32 +80,7 @@ export class AppComponent {
       and natural!`,
     },
   ];
-  links: any = [
-    {
-      name: 'Phone',
-      title: '1-514-348-2584',
-      icon: 'phone.svg',
-      link: `tel:15143482584`,
-    },
-    {
-      name: 'email',
-      title: 'nicolas@dmsolutions.pro',
-      icon: 'mail.png',
-      link: `mailto:nicolas@dmsolutions.pro`,
-    },
-    {
-      name: 'facebook',
-      title: '@dm solution',
-      icon: 'facebook.svg',
-      link: `https://www.facebook.com/profile.php?id=100089912816271`,
-    },
-    {
-      name: 'instagram',
-      title: 'nicolas.doucetoo',
-      icon: 'insegram.svg',
-      link: `https://instagram.com/nicolas.doucet00?igshid=YmMyMTA2M2Y=`,
-    },
-  ];
+  
   ngAfterViewInit(): void {
     window.addEventListener('scroll', () => {
       this.activeMenu = false;

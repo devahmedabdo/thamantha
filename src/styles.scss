@@ -1,1 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* You can add global styles to this file, and also import other style files */
+@layer base {
+  ::selection {
+    @apply bg-primary text-dark;
+  }
+  html {
+    scroll-behavior: smooth;
+    body {
+      @apply bg-primary;
+      box-sizing: border-box;
+      font-family: "Lexend", sans-serif;
+      hr {
+        @apply border-black;
+      }
+    }
+  }
+}
+@layer utilities {
+  .container {
+    @apply max-w-[1200px] mx-auto px-2;
+  }
+}
+@layer components {
+  .btn {
+    @apply px-4 py-1 font-medium md:text-lg bg-black text-white rounded-[10px] hover:shadow-xl duration-300;
+  }
+}

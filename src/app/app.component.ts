@@ -66,21 +66,24 @@ export class AppComponent {
       made me feel stunning and 
       confident – highly 
       recommended!`,
+      name: `Miss Farah`,
     },
     {
       dis: `Game-changing makeup 
       lessons, Samantha's 
       personalized approach 
       boosted my confidence.`,
+      name: `Mellisah`,
     },
     {
       dis: `Exceeded expectations 
       with microblading; my 
       brows look full 
       and natural!`,
+      name: `EMMA`,
     },
   ];
-  
+
   ngAfterViewInit(): void {
     window.addEventListener('scroll', () => {
       this.activeMenu = false;

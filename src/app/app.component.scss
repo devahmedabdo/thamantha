@@ -6,7 +6,7 @@ header {
           @apply text-black;
         }
       }
-      @media (max-width: 1120px) {
+      @media (max-width: 1140px) {
         @apply bg-primary z-50 absolute top-full left-0 w-full items-center justify-center  flex-col h-0 overflow-hidden;
         li {
           @apply translate-y-16 opacity-0 duration-300;
@@ -22,12 +22,12 @@ header {
     }
   }
   .btn {
-    @media (max-width: 1120px) {
+    @media (max-width: 1140px) {
       @apply ml-auto mr-2;
     }
   }
   .menu-icon {
-    @media (min-width: 1121px) {
+    @media (min-width: 1141px) {
       @apply hidden;
     }
     span {
